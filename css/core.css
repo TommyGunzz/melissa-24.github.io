@@ -41,6 +41,12 @@ header h2 {font-size: 56px;
   flex-direction: column;
   position: relative;
   top: 80px;}
+.list {display: flex;
+	flex-direction: column;
+	position: relative;
+	top: 80px;
+	align-items: center;
+justify-content: center;}
 .footer {display: flex;
   flex-direction: column;
   justify-content: center;
