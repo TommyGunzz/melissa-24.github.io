@@ -54,3 +54,10 @@ justify-content: center;}
   position: relative;
   top: 80px;
 }
+.desktop {display: block;}
+.mobile {display: none;}
+
+@media screen and (max-width: 750px) {
+.desktop {display: none;}
+.mobile {display:block;}
+}
